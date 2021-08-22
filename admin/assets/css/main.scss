@@ -1,0 +1,161 @@
+.wpb {
+    &_wow-vc-boxinfo-shortcode {
+        &.wpb_content_element {
+            .wpb_element_title {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 0.25rem !important;
+                i {
+                    float: none;
+                    margin: 0;
+                }
+            }
+            .wow-vc-bgimg {
+                display: none;
+            }
+        }
+    }
+    &-content-layouts-container{
+        .wpb-content-layouts {
+            li{
+                position: relative;
+                .icon-wow-vc-adminicon {
+                    &:before {
+                        display: none;
+                    }
+                }
+                &[data-element*="wow-vc-"] {
+                    .icon-wow-vc-adminicon {
+                        background-image: url(../../img/icon.png) !important;
+                        filter: grayscale(1);
+                        opacity: .2;
+                        &.icon-wow-vc-boxinfo {
+                            background-image: url(../../img/dimensions.png) !important;
+                        }
+                        &.icon-wow-vc-custompost {
+                            background-image: url(../../img/clipboard.png) !important;
+                        }
+                        &.icon-wow-vc-block {
+                            background-image: url(../../img/insert.png) !important;
+                        }
+                        &.icon-wow-vc-popup {
+                            background-image: url(../../img/windows.png) !important;
+                        }
+                        &.icon-wow-vc-heading {
+                            background-image: url(../../img/heading.png) !important;
+                        }
+                        &.icon-wow-vc-gravityforms {
+                            background-image: url(../../img/form.png) !important;
+                        }
+                        &.icon-wow-vc-imagegroup {
+                            background-image: url(../../img/images.png) !important;
+                        }
+                    }
+                    // &:after {
+                    //     background-image: url(../../img/icon.png) !important;
+                    //     display: block;
+                    //     content: '';
+                    //     height: 16px;
+                    //     width: 16px;
+                    //     background-size: cover;
+                    //     background-position: center center;
+                    //     position: absolute;
+                    //     right: 10px;
+                    //     top: 10px;
+                    // }
+                }
+                &:hover {
+                    &[data-element*="wow-vc-"] {
+                        .icon-wow-vc-adminicon {
+                            // filter: invert(1) brightness(100);
+                            // opacity: 1;
+                        }
+                        &:after {
+                            // filter: invert(1) brightness(100);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#poststuff .wow-vc-title {
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 0.15rem;
+}
+#poststuff .wpb_content_element>.wpb_element_wrapper {
+    .vc_element-icon.icon-wow-vc-adminicon {
+        background-image: url(../../img/icon.png) !important;
+        opacity: .5;
+        filter: grayscale(1);
+        &.icon-wow-vc-boxinfo {
+            background-image: url(../../img/dimensions.png) !important;
+        }
+        &.icon-wow-vc-custompost {
+            background-image: url(../../img/clipboard.png) !important;
+        }
+        &.icon-wow-vc-block {
+            background-image: url(../../img/insert.png) !important;
+        }
+        &.icon-wow-vc-popup {
+            background-image: url(../../img/windows.png) !important;
+        }
+        &.icon-wow-vc-heading {
+            background-image: url(../../img/heading.png) !important;
+        }
+        &.icon-wow-vc-gravityforms {
+            background-image: url(../../img/form.png) !important;
+        }
+        &.icon-wow-vc-imagegroup {
+            background-image: url(../../img/images.png) !important;
+        }
+        &:before {
+            display: none;
+        }
+    }
+}
+.wow-vc-img-single {
+    margin: 5px 0;
+}
+.wow_vc_hidden_frm {
+        display: none;
+}
+.wow-vc-img-single {
+    max-width: 50px;
+    display: block;
+}
+
+.wpb_el_type_wow_vc_group_header {
+    background: #eaeaea;
+    padding: 1rem !important;
+    margin: 1.5rem 0 0 0;
+    .wpb_element_label {
+        margin: 0;
+    }
+}
+
+.admin-wow-vc-col {
+    &.pt-0 {
+        padding-top: 0 !important;
+    }
+}
+.wow-vc-childcol-3 {
+    .edit_form_line {
+        margin-left: -15px;
+        margin-right: -15px;
+        .vc_column {
+            width: 50%;
+            float: left;
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-top: 15px !important;
+        }
+    }
+}

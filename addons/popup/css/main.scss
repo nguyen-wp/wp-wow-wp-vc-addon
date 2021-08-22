@@ -1,0 +1,24 @@
+.wow-vc-click-to-close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9000;
+    transition: 0s all ease-in-out !important;
+    transform: none !important;
+    > * {
+        transition: 0s all ease-in-out !important;
+        transform: none !important;
+    }
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 690px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}

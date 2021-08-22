@@ -1,0 +1,12 @@
+.wow-vc-click-to-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9000;
+  transition: 0s all ease-in-out !important;
+  transform: none !important;
+}
+.wow-vc-click-to-close > * {
+  transition: 0s all ease-in-out !important;
+  transform: none !important;
+}

@@ -1,0 +1,120 @@
+.wow-vc-elements.wow-vc-boxinfo .wow-vc-ctn .wow-vc-button > a {
+  display: inline-block;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-hold-click {
+  position: relative;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-hold-click .hold-click {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-2 {
+  display: flex;
+  flex-direction: column;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 {
+  display: flex;
+  flex-direction: column;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 figure {
+  order: 1;
+}
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 .wow-vc-ctn {
+  order: 2;
+}
+.wow-vc-elements.wow-vc-boxinfo .box-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 480px) {
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 {
+    position: relative;
+    overflow: hidden;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 article {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 article .wow-vc-title {
+    transition: all ease-in-out 0s;
+    height: auto;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 article .wow-vc-content,
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 article .wow-vc-button {
+    height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+    opacity: 0;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4 figure img {
+    width: 100%;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4:hover article .wow-vc-content,
+.wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4:hover article .wow-vc-button {
+    height: auto;
+    opacity: 1;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-4:hover article .wow-vc-title {
+    height: 0;
+    opacity: 0;
+  }
+}
+@media only screen and (min-width: 690px) {
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-2 {
+    flex-direction: row;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-2 figure {
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-2 .wow-vc-ctn {
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 {
+    flex-direction: row;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 figure {
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    order: 2;
+  }
+  .wow-vc-elements.wow-vc-boxinfo.wow-vc-theme-style-3 .wow-vc-ctn {
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    order: 1;
+  }
+}

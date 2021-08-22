@@ -1,0 +1,74 @@
+.wow-vc-elements {
+    &.wow-vc-imagegroup  {
+        .wow-vc-hold-click {
+            position: relative;
+            .hold-click {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .wow-vc-ctn {
+            img {
+                margin-bottom: 0;
+            }
+            figure {
+                margin-bottom: .5rem;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 690px) {
+}
+@media only screen and (min-width: 768px) {
+    .wow-vc-elements {
+        &.wow-vc-imagegroup  {
+            &.wow-vc-style-2 {
+                article {
+                    position: relative;
+                    figure {
+                        margin-bottom: 0;
+                    }
+                    .wow-vc-action{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background: rgba(0,0,0,.65);
+                        transition: .5s all ease-in-out;
+                        opacity: 0;
+                        padding: 2rem;
+                        .wow-vc-title {
+                            margin-bottom: 0;
+                        }
+                    }
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        .wow-vc-action{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 1400px) {
+
+}

@@ -1,0 +1,117 @@
+.wow-vc-elements {
+    &.wow-vc-heading {
+        position: relative;
+        .wow-vc-title {
+            margin: 0;
+            position: relative;
+            .wow-vc-title-wrap {
+                display: inline-block;
+            }
+            .wow-vc-icon {
+                margin-right: .5rem;
+            }
+        }
+        &.wow-vc-theme-top {
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                top: 0;
+                height: 1px;
+                width: 30px;
+                background-color: #dfdfdf;
+            }
+            &.liner-align-left {
+                &:after {
+                    left: 0;
+                }
+            }
+            &.liner-align-right {
+                &:after {
+                    right: 0;
+                }
+            }
+            &.liner-align-center {
+                &:after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        &.wow-vc-theme-liner {
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                bottom: 0;
+                height: 1px;
+                width: 30px;
+                background-color: #dfdfdf;
+            }
+            &.liner-align-left {
+                &:after {
+                    left: 0;
+                }
+            }
+            &.liner-align-right {
+                &:after {
+                    right: 0;
+                }
+            }
+            &.liner-align-center {
+                &:after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        &.wow-vc-theme-middle {
+            .wow-vc-title {
+                span {
+                    position: relative;
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        top: 50%;
+                        height: 1px;
+                        width: 30px;
+                        background-color: #dfdfdf;
+                        z-index: -1;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+            &.liner-align-left {
+                .wow-vc-title {
+                    span {
+                        &:after {
+                            left: 100%;
+                        }
+                    }
+                }
+            }
+            &.liner-align-right {
+                .wow-vc-title {
+                    span {
+                        &:after {
+                            right: 100%;
+                        }
+                    }
+                }
+            }
+            &.liner-align-center {
+                .wow-vc-title {
+                    span {
+                        &:after {
+                            left: 50%;
+                            transform: translateX(-50%) translateY(-50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+}
