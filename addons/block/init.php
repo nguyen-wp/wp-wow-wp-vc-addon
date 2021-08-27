@@ -47,7 +47,7 @@ if (!class_exists('wowVC_Addons_Block')) {
 
 			$randomIDGen = $this->generateRandomString(10);
 			$args = array(
-			'post_type'=> 'blocks',
+			'post_type'=> array('wow_blocks', 'blocks'),
 			'orderby'    => 'ID',
 			'post_status' => 'publish',
 			'order'    => 'DESC',
@@ -131,7 +131,7 @@ if (!class_exists('wowVC_Addons_Block')) {
 			if($block_id || $css_class || $attribute) {
 				$output .= '<section'. $block_id .' class="wow-vc-elements wow-vc-' . $this->name . $css_class. $classname.'"' . str_replace('``', '', $attribute) . '>';
 			}
-			$output .= $content ?  do_shortcode('[blocks id="'.$content.'"]') : null;
+			$output .= $content ?  do_shortcode('[wow_blocks id="'.$content.'"]') : null;
 			if($block_id || $css_class || $attribute) {
 				$output .= '</section>';
 			}
