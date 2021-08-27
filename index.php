@@ -16,7 +16,7 @@
  * Plugin URI:        https://wordpress.org/plugins/wow-wp-vc-addon
  * Description:       WOW Addons for Visual Composer is a WPBakery Page Builder add-on that allows you add many futured to WPBakery Page Builder. WPBakery Page Builder must be installed and activated.
  * Version:           1.0.0
- * Author:            Nguyen Pham
+ * Author:            WOW WordPress
  * Author URI:        https://github.com/baonguyenyam/wp-wow-wp-vc-addon
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
